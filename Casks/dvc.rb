@@ -9,5 +9,5 @@ cask 'dvc' do
 
   pkg "dvc-#{version}.pkg", allow_untrusted: true
 
-  uninstall pkgutil: 'org.dataversioncontrol.dvc'
+  uninstall pkgutil: 'com.dataversioncontrol.dvc'
 end
